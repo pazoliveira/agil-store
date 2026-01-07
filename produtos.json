@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1767805912132,
+    "nome": "Desodorante",
+    "categoria": "Higiene Pessoal",
+    "quantidade": 2,
+    "preço": 15
+  },
+  {
+    "id": 1767815158915,
+    "nome": "Copo",
+    "categoria": "Cozinha",
+    "quantidade": 1,
+    "preço": 5
+  }
+]
