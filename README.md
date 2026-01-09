@@ -23,4 +23,4 @@ O sistema conta com as 5 operações principais (CRUD):
 1. Certifique-se de ter o [Node.js](https://nodejs.org/) instalado.
 2. Clone o repositório:
    ```bash
-   git clone [https://github.com/pazoliveira/agil-store.git](https://github.com/pazoliveira/agil-store.git)
+   git clone https://github.com/pazoliveira/agil-store
