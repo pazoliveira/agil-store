@@ -1,26 +1,51 @@
-# 📦 Agil Store - Sistema de Gestão de Inventário
+# 🏪 Gerenciamento de Produtos - AgilStore
 
-Este é um sistema de controle de estoque desenvolvido em **Node.js**. O projeto permite o gerenciamento completo de produtos através de uma interface de linha de comando (CLI), com persistência de dados em arquivos JSON.
+Uma aplicação de linha de comando (CLI) desenvolvida em Node.js para o controle automatizado de inventário, permitindo a gestão eficiente de produtos com persistência de dados.
 
-## 🚀 Funcionalidades
+<div align="center">
+  <img src="https://img.shields.io/badge/node.js-%23339933.svg?style=for-the-badge&logo=node.dot-js&logoColor=white">
+  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
+  <img src="https://img.shields.io/badge/json-5E5E5E?style=for-the-badge&logo=json&logoColor=white">
+</div>
 
-O sistema conta com as 5 operações principais (CRUD):
-- **Adicionar Produto**: Registra nome, categoria, quantidade e preço (com ID único gerado automaticamente).
-- **Listar Inventário**: Exibe todos os produtos em uma tabela organizada.
-- **Atualizar Produto**: Permite editar informações de um produto existente buscando por ID ou Nome.
-- **Excluir Produto**: Remove um item do estoque permanentemente.
-- **Buscar Produto**: Localização rápida de itens por ID ou Nome.
+## 📋 Funcionalidades e Requisitos
 
-## 🛠️ Tecnologias Utilizadas
+| Item | Descrição da Implementação |
+| :--- | :--- |
+| **Adicionar** | Cadastro de produtos com ID único automático ). |
+| **Listar** | Exibição do inventário completo em formato de tabela no terminal. |
+| **Atualizar** | Edição de campos específicos (Nome, Categoria, Qtd, Preço) via ID. |
+| **Excluir** | Remoção de itens do sistema com busca por ID. |
+| **Buscar** | Localização detalhada por ID ou busca parcial por nome. |
+| **Persistência** | Salvamento automático e leitura de dados. |
+| **Validação** | Verificação de tipos numéricos e proteção contra entradas vazias ou inválidas. |
 
-- **Node.js**: Ambiente de execução.
-- **Readline**: Para interação com o usuário via terminal.
-- **FS (File System)**: Para salvar e ler os dados do arquivo `produtos.json`.
-- **Git & GitHub**: Para versionamento e hospedagem do código.
+## 🛠️ Tecnologias
+
+| Tecnologia | Utilização |
+| :--- | :--- |
+| **JavaScript** | Lógica de programação e manipulação de objetos. |
+| **Node.js** | Ambiente de execução do código. |
+| **Readline** | Interface para leitura de dados e interação com o usuário. |
+| **FileSystem (fs)** | Persistência de dados e manipulação do arquivo JSON. |
+
+## 📂 Estrutura de Arquivos
+
+```text
+/
+├── index.js           # Motor da aplicação (Menu, Lógica e Operações)
+├── produtos.json      # Banco de dados local (gerado automaticamente)
+└── README.md          # Documentação técnica do projeto
+```
 
 ## 📦 Como rodar o projeto
 
-1. Certifique-se de ter o [Node.js](https://nodejs.org/) instalado.
-2. Clone o repositório:
-   ```bash
-   git clone https://github.com/pazoliveira/agil-store
+| Passo | Comando / Ação |
+| :--- | :--- |
+| **1. Obter código** | `git clone https://github.com/pazoliveira/agil-store.git` |
+| **2. Acessar pasta** | `cd agil-store` |
+| **3. Iniciar Sistema** | `node index.js` |
+
+---
+**Autor:** Diego Oliveira - PUCRS 2026
+
